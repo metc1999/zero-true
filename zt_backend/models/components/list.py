@@ -26,6 +26,7 @@ class ListComponent(ZTComponent):
     height: Union[int, str] = Field("100%", description="Height of the List")
 
 
+# TODO: debug value prop
 class ListItem(ZTComponent):
     """List Item helps define properties of individual items in the list"""
 
@@ -67,7 +68,7 @@ class ListItemTitle(ZTComponent):
     )
 
 
-# TODO: debug opacity prop(not working)
+# TODO: debug opacity
 class ListItemSubtitle(ZTComponent):
     """List Item SubtitleTitle is used to specify the Subtitle of the List Item. Use Text component to provide the text details of the subtitle and pass it to the child component of List Item"""
 
@@ -81,7 +82,7 @@ class ListItemSubtitle(ZTComponent):
     opacity: Union[int, str] = Field("50%", description="opacity for subtitle")
 
 
-# TODO: debug the title prop(not working)
+# TODO: debug the title prop
 class ListSubheader(ZTComponent):
     """List SubHeader is used to specify the Sub Header of the List. Use Text component to provide the title details and pass it to the child component of List."""
 
