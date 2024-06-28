@@ -48,6 +48,8 @@ import {
   VImg,
   VAutocomplete,
   VCard,
+  VTab,
+  VTabs
 } from "vuetify/lib/components/index.mjs";
 import { VDataTable } from "vuetify/components/VDataTable";
 import TextComponent from "@/components/TextComponent.vue";
@@ -69,6 +71,9 @@ export default {
     "v-card": VCard,
     "v-text": TextComponent,
     "plotly-plot": PlotlyPlot,
+    "v-tab":VTab,
+    "v-tabs":VTabs
+
   },
   emits: ["runCode"],
   props: {
